@@ -1,52 +1,38 @@
-<iframe src='http://cdn.knightlab.com/libs/timeline/latest/embed/index.html?source=0AsMiRbsrxi63dDFnd2tHT0RlNnljRWhGWVJKYXFvNkE&font=Bevan-PotanoSans&maptype=toner&lang=en&height=650' width='100%' height='650' frameborder='0'></iframe>
-<a href="#TOP"><h2 name="test">Testing</h2></a>
-<br>
-</br>
-<br>
-</br>
-<br>
-</br>
-<br>
-</br>
-<br>
-</br>
-<br>
-</br>
-<br>
-</br>
-<br>
-</br>
-<br>
-</br>
-<br>
-</br>
-<br>
-</br>
-<br>
-</br>
-<br>
-</br>
-<br>
-</br>
-<br>
-</br>
-<br>
-</br>
-<br>
-</br>
-<br>
-</br>
-<br>
-</br>
-<br>
-</br>
-<br>
-</br>
-<br>
-</br>
-<br>
-</br>
-<br>
-</br>
-<a name="TOP"></a>
+<html>
+<head>
+<link rel="stylesheet" href="style.css" text="text/css">
+</head>
+<body>
+  <!-- BEGIN Timeline Embed -->
+  <div id="timeline-embed"></div>
+  <!-- Override -->
+  <script type="text/javascript">
+    var trim_point = window.location.href.indexOf('embed/index.html');
+    if (trim_point > 0) {
+      var embed_path = window.location.href.substring(0,trim_point); // supports https access via https://s3.amazonaws.com/cdn.knightlab.com/libs/timeline/latest/embed/index.html 
+    } else {
+      var embed_path = "http://cdn.knightlab.com/libs/timeline/latest/";
+    }
+  </script>
+  <script type="text/javascript" src="http://cdn.knightlab.com/libs/timeline/latest/js/storyjs-embed-cdn.js?v214"></script>
+  <!-- END Timeline Embed-->
+  <img id="jimmypic" class="circular" src="http://upload.wikimedia.org/wikipedia/commons/8/89/Orpington_chicken_head.jpg" height="100px" width="100px" />
+
+<div>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+</div>
+</html>
+</body>
+
+<!--<iframe src='http://cdn.knightlab.com/libs/timeline/latest/embed/index.html?source=0AsMiRbsrxi63dDFnd2tHT0RlNnljRWhGWVJKYXFvNkE&font=Bevan-PotanoSans&maptype=toner&lang=en&height=650' width='100%' height='650' frameborder='0'></iframe>-->
+
+<!--<a href="#TOP"><h2 name="test">Testing</h2></a>
+<a name="TOP"></a>-->
+
 

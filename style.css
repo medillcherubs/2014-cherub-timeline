@@ -1,3 +1,18 @@
-h2 {align: center;
+p {
+	font-family: Bevan, Potano Sans;
+}
 
+.circular {
+	width: 200px;
+	height: 200px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url(http://upload.wikimedia.org/wikipedia/commons/8/89/Orpington_chicken_head.jpg) no-repeat;
+	
+	}
+
+#jimmpic {
+	border-style: solid;
+	border-width: 3px;
 }
